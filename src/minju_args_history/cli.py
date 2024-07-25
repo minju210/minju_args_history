@@ -28,6 +28,7 @@ def cmd():
             # 특정 날짜의 명령어
         else:
             print("#에러 안내 메시지")
+            parser.print_help()
     else:
         # 사용법 출력
         parser.print_help()
