@@ -1,4 +1,4 @@
-def helloy_msg():
+def hello_msg():
     return "hello"
 
 def cmd():
