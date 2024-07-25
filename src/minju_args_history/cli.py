@@ -27,9 +27,7 @@ def cmd():
             print(f"-d => {args.dt}")
             # 특정 날짜의 명령어
         else:
-            print("에러 안내 메시지")
-            #parser.print_help()
-            ArgumentParser.error("-t 옵션은 -d 옵션과 함께 사용하십시오.")
+            parser.error("-t 옵션은 -d 옵션과 함께 사용하십시오.")
     else:
         # 사용법 출력
         parser.print_help()
