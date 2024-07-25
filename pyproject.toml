@@ -20,6 +20,9 @@ test = [
     "pytest-cov>=5.0.0",
 ]
 
+[project.scripts]
+my-history = 'minju_args_history.cli:cmd'
+
 [project.urls]
 Homepage = "https://github.com/minju210/minju_args_history"
 Issues = "https://github.com/minju210/minju_args_history/issues"
