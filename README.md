@@ -32,4 +32,4 @@ $ pdm add -dG test pytest pytest-cov
 ```
 
 ### ref
-- 
+- https://pdm-project.org/en/latest/usage/dependency/#add-development-only-dependencies
