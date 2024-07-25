@@ -20,9 +20,14 @@ def cmd():
 
     if args.scount:
         print(f"-s => {args.scount}")
+        # 명령어 카운트
     elif args.top:
         print(f"-t => {args.top}")
         if args.dt:
             print(f"-d => {args.dt}")
+            # 특정 날짜의 명령어
         else:
-            print("TO DO")
+            print("#에러 안내 메시지")
+    else:
+        # 사용법 출력
+        parser.print_help()
