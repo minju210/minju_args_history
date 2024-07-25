@@ -1,5 +1,6 @@
-import minju_args_history.cli.hello_msg as msg
+#import minju_args_history.cli() import hello_msg
+from minju_args_history.cli import hello_msg
 
 def test_hello():
-    m = msg()
+    m = hello_msg() 
     assert m == "hello"

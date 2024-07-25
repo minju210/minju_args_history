@@ -35,7 +35,8 @@ $ pytest
 
 # option
 $ pdm add -dG test pytest pytest-cov
-
+$ 
+$ 
 ```
 ### deploy
 ```bash
